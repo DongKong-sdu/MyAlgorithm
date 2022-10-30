@@ -5,11 +5,14 @@ import org.example.algorithmHushu.fengehuiwenchuan;
 import org.example.algorithmHushu.zhuhezhonghe;
 import org.example.algorithmHushu.zhuhezhonghe2;
 import org.example.algorithmShuzhu.erfenchazhao;
+import org.example.algorithmShuzhu.yichuyuanshu;
+import org.example.algorithmShuzhu.youyushuzhupingfang;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
+import java.util.Arrays;
 
 import static org.example.ImageBase64Util.base64ToFile;
 
@@ -51,8 +54,13 @@ public class Main {
 //        InputStream inputStream = new FileInputStream(file);
 //        System.out.println("getFinishPicFile "+file.getName());
 //        System.out.println("getFinishPicFile "+file.length());
-          int[] c=new int[]{-1,0,3,5,9,12};
-          System.out.println(erfenchazhao.search(c,2));
+//          int[] c=new int[]{-1,0,3,5,9,12};
+//          System.out.println(erfenchazhao.search(c,2));
+//           int[] c = new int[]{0,1,2,2,3,0,4,2};
+//           int val=2;
+//          System.out.println(yichuyuanshu.removeElement(c,val));
+        int[] nums =new int[]{7,-3,2,3,11};
+        System.out.println(Arrays.toString(youyushuzhupingfang.youyushuzhupingfang(nums)));
     }
 
 }
