@@ -1,4 +1,4 @@
-package org.example.algorithmShuzhu;
+package org.example.algorithmLianbiao;
 
 public class removeNthFromEnd {
     static public ListNode removeNthFromEnd(ListNode head,int n){

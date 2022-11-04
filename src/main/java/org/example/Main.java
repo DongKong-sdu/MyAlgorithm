@@ -1,12 +1,14 @@
 package org.example;
 
+import org.example.algorithmHash.kuaileshu;
+import org.example.algorithmHash.lianggeshuzhujiaoji;
+import org.example.algorithmHash.youxiaozimuyiweichi;
 import org.example.algorithmHushu.dianhuahaomazimuzhuhe;
 import org.example.algorithmHushu.fengehuiwenchuan;
 import org.example.algorithmHushu.zhuhezhonghe;
 import org.example.algorithmHushu.zhuhezhonghe2;
-import org.example.algorithmShuzhu.erfenchazhao;
-import org.example.algorithmShuzhu.yichuyuanshu;
-import org.example.algorithmShuzhu.youyushuzhupingfang;
+import org.example.algorithmLianbiao.yichulianbiaoyuanshu;
+import org.example.algorithmShuzhu.*;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -59,8 +61,19 @@ public class Main {
 //           int[] c = new int[]{0,1,2,2,3,0,4,2};
 //           int val=2;
 //          System.out.println(yichuyuanshu.removeElement(c,val));
-        int[] nums =new int[]{7,-3,2,3,11};
-        System.out.println(Arrays.toString(youyushuzhupingfang.youyushuzhupingfang(nums)));
+//        int[] nums =new int[]{7,-3,2,3,11};
+//        System.out.println(Arrays.toString(youyushuzhupingfang.youyushuzhupingfang(nums)));
+//        int[] nums=new int[]{2,3,1,2,4,3};
+//
+//        System.out.println(chuangduzuixiaozishuzhu.minSubArrayLen(7,nums));
+//        System.out.println(Arrays.deepToString(luoxuanjuzhen.generateMatrix(5)));
+//        String s = "rat";
+//        String t = "car";
+//        System.out.println(youxiaozimuyiweichi.youxiaozimuyiweichi(s, t));
+//        int[] nums1=new int[]{1,2,2,1};
+//        int[] nums2=new int[]{2,2};
+//        System.out.println(Arrays.toString(lianggeshuzhujiaoji.lianggeshuzhujiaoji(nums1, nums2)));
+        System.out.println(kuaileshu.isHappy(19));
     }
 
 }
